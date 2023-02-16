@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  --main-100: #F1F5F9;
+  --main-200: #E2E8F0;
+  --main-400: #94A3B8;
+  --main-500: #64748B;
+  --main-800: #1E293B;
+  --main-900: #0F172A;
+  --primary-300: #93C5FD;
+  --primary-500: #3B82F6;
+  --red-500: #DC2626
+}
+
+html[data-theme="dark"] {
+  --main-100: #1e2021;
+  --main-200: #242729;
+  --main-400: #494f52;
+  --main-500: #9d9487;
+  --main-800: #ccc7c1;
+  --main-900: #d6d2cd;
+  --primary-300: #023773;
+  --primary-500: #459ff6;
+}
+
