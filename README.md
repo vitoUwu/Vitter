@@ -38,3 +38,11 @@ npm run build
 ```
 npm run start
 ```
+
+# TODO
+
+- [ ] Finish implementation of layout
+- [ ] Find a solution to "flash bang" issue *
+- [ ] Maybe develop a back-end
+
+*The "flash bang" issue occurs when a dark theme user open the application and the screen flashes the light theme.
